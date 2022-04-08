@@ -8,9 +8,10 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    <script src="https://kit.fontawesome.com/bfe7d96b18.js" crossorigin="anonymous"></script>
   </head>
 
-  <body>
+  <body class="w-4/5 m-auto font-sans text-xs">
     <%= yield %>
   </body>
 </html>
