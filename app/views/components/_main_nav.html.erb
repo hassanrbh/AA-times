@@ -29,9 +29,13 @@
                 log in
             </button>
 
-            <a href="https://google.com">
-                <i class="fas fa-gears p-2 text-base hover:text-red-400"></i>
-            </a>
+            
+            <li class="group inline">
+                <a href="#">
+                    <i class="fas fa-gears p-2 text-base hover:text-red-400 relative"></i>
+                    <%= render "components/gear_dropdown" %>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
